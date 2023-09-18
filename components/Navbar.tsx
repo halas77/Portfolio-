@@ -19,7 +19,7 @@ const Navbar = () => {
         <motion.div
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.8 }}
+          transition={{ duration: 1, delay: 0.5 }}
         >
           <div className="w-1/2 text-white 700 xl:ml-32 2xl:ml-48 text-4xl font-extrabold"></div>
           <div className="flex w-1/2 font-semibold ">
@@ -29,8 +29,8 @@ const Navbar = () => {
                   href={item.href}
                   className={
                     pathname === item.href
-                      ? "text-gray-100 border-b border-green-500 pb-1"
-                      : "text-gray-100 hover:border-b hover:border-green-500 pb-1 ease-in-out duration-105"
+                      ? "text-gray-50 border-b border-green-500 pb-1"
+                      : "text-gray-200 hover:border-b hover:border-green-500 pb-1 ease-in-out duration-105"
                   }
                 >
                   {item.label}

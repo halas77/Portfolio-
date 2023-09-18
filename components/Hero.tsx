@@ -19,12 +19,12 @@ export default function Hero() {
           <motion.div
             initial={{ opacity: 0, y: 0, x: -40 }}
             animate={{ opacity: 1, y: 0, x: 0 }}
-            transition={{ duration: 1.2, delay: 0.8 }}
+            transition={{ duration: 1, delay: 0.5 }}
           >
             <h3 className="my-5 text-gray-400 italic">
               Your vision, My code – Unstoppable results.
             </h3>
-            <h1 className="my-5 text-green-500 font-extrabold text-4xl md:text-6xl">
+            <h1 className="my-5 text-green-500 font-extrabold text-4xl md:text-6xl font-sans">
               DAWIT MELLESE
             </h1>
             <p className="text-gray-400 text-lg md:text-xl ">
@@ -40,7 +40,7 @@ export default function Hero() {
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2, delay: 0.8 }}
+            transition={{ duration: 1, delay: 0.5 }}
           >
             <button className="w-32 h-10  border border-green-400 mt-5 hover:bg-zinc-950 hover:text-gray-200 hover:border-gray-200 ease-in-out duration-300 rounded-full text-green-400 mr-8">
               {" "}
