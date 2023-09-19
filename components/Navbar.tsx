@@ -1,6 +1,6 @@
 "use client";
 
-import { linkVariants, navLinks } from "@/constants/constants";
+import { navLinks } from "@/constants/constants";
 import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -13,24 +13,24 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <div>
+    <div className="">
       <div className="hidden lg:flex w-full my-10 text-gray-300">
-        <div className="w-1/2 text-white xl:ml-32 2xl:ml-48 text-4xl font-extrabold"></div>
+        <div className="w-1/2 text-white lg:ml-24 xl:ml-44 2xl:ml-56 text-4xl font-extrabold"></div>
         <motion.div
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
+          transition={{ duration: 1, delay:0 }}
         >
-          <div className="w-1/2 text-white 700 xl:ml-32 2xl:ml-48 text-4xl font-extrabold"></div>
+          <div className="w-1/2 text-white 700 mr-12 text-4xl font-extrabold"></div>
           <div className="flex w-1/2 font-semibold ">
-            <ul className="flex xl:gap-8 lg:gap-5 ">
+            <ul className="flex gap-7">
               {navLinks.map((item) => (
                 <Link
                   href={item.href}
                   className={
                     pathname === item.href
-                      ? "text-gray-50 border-b border-green-500 pb-1"
-                      : "text-gray-200 hover:border-b hover:border-green-500 pb-1 ease-in-out duration-105"
+                      ? "text-white border-b border-green-500 pb-1"
+                      : "text-gray-300 hover:border-b hover:border-green-500 pb-1 ease-in-out duration-105"
                   }
                 >
                   {item.label}

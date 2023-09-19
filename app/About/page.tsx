@@ -87,14 +87,14 @@ const page = () => {
   return (
     <div className="w-full h-screen text-white">
       <motion.div
-        initial={{ opacity: 0, y: 40 }}
+        initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 0.5 }}
+        transition={{ duration: 1, delay: 0 }}
       >
         <div className="mx-10 md:mx-28 my-8 xl:mx-36 xl:my-10">
           <h1 className="text-4xl mb-12 font-extrabold font-sans">
             MORE{" "}
-            <span className="font-sans border-b border-green-500 p-1">
+            <span className="font-sans border-b border-green-500 p-1 pr-10">
               ABOUT ME
             </span>
           </h1>
@@ -111,7 +111,7 @@ const page = () => {
           </p>
           <h1 className="mt-28 text-4xl mb-12 font-extrabold font-sans">
             LANGUAGES &{" "}
-            <span className="font-sans border-b border-green-500 p-1">
+            <span className="font-sans border-b border-green-500 p-1 pr-10">
               FRAMEWORKS
             </span>
           </h1>
@@ -130,7 +130,7 @@ const page = () => {
           </div>
           <h1 className="mt-28 text-4xl mb-12 font-extrabold font-sans">
             TOOLS &{" "}
-            <span className="font-sans border-b border-green-500 p-1">
+            <span className="font-sans border-b border-green-500 p-1 pr-10">
               PLATFORMS
             </span>
           </h1>
