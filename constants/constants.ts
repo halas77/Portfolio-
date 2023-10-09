@@ -20,7 +20,7 @@ export const projects = [
     desc: "I handle the technical backbone of your application, guaranteeing seamless functionality and data management",
   },
   {
-    image: "/img3.png",
+    image: "/menen.jpg",
     label: "Menen E-Commerce",
     catagory: "Web",
     desc: "Combines the best of FrontEnd and BackEnd, delivering comprehensive solutions that meet all your project needs",
