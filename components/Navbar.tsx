@@ -26,6 +26,7 @@ const Navbar = () => {
             <ul className="flex gap-7">
               {navLinks.map((item) => (
                 <Link
+                 key={item.label}
                   href={item.href}
                   className={
                     pathname === item.href
