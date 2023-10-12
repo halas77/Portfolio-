@@ -8,39 +8,52 @@ export const navLinks = [
 
 export const projects = [
   {
-    image: "/img3.png",
-    label: "Online Exam Platform for Blinds",
-    catagory: "Web",
-    desc: "Crafts captivating and user-friendly interfaces, ensuring an engaging online experience for your customers.",
-  },
-  {
-    image: "/img2.png",
-    label: "Gari Platform",
-    catagory: "Web",
-    desc: "I handle the technical backbone of your application, guaranteeing seamless functionality and data management",
-  },
-  {
     image: "/menen.jpg",
     label: "Menen E-Commerce",
     catagory: "Web",
-    desc: "Combines the best of FrontEnd and BackEnd, delivering comprehensive solutions that meet all your project needs",
+    git: "https://github.com/halas77/menen",
+    live: "https://menen-shop.vercel.app/",
+    desc: "Retail reinvented: Menen E-Commerce promises a cutting-edge shopping experience tailored to your every need.",
+  },
+  {
+    image: "/gari.jpg",
+    label: "Gari Platform",
+    catagory: "Web",
+    git: "https://github.com/halas77/Car-Showcase",
+    live: "https://gari-car.vercel.app/",
+    desc: "Revolutionizing mobility: A versatile car rental, selling, and ordering platform that puts the power of convenience in your hands.",
+  },
+  {
+    image: "/you.jpeg",
+    label: "Youtube Clone",
+    catagory: "Web",
+    live: "",
+    git: "https://github.com/halas77/Youtube_Clone",
+    desc: "Redefining streaming: A YouTube Clone poised to capture the essence of online video sharing in its own distinctive way.",
   },
   {
     image: "/img4.jpg",
     label: "Disease Predictor AI",
     catagory: "Code",
-    desc: "Empower individuals and teams by sharing knowledge and providing guidance, fostering professional growth and expertise.",
+    git: "https://github.com/halas77/AI-ML-Healthiness-predictor-",
+    live: "",
+    desc: "Predicting the future of health: Harnessing the power of AI to foresee diseases, enabling early intervention and prevention.",
+  },
+  {
+    image: "/exam.jpeg",
+    label: "Online Exam Platform for Blinds",
+    catagory: "Web",
+    git: "",
+    live: "",
+    desc: "Empowering inclusivity: An Online Exam Platform thoughtfully designed for the visually impaired, breaking down educational barriers.",
   },
   {
     image: "/img4.jpg",
     label: "Playfair Text Encryptor",
     catagory: "Code",
-    desc: "Ensures your systems run smoothly, offering rapid solutions to any software or hardware issues, keeping your business operations on track",
+    git: "https://github.com/halas77/text-encryption-",
+    live: "",
+    desc: "Guarding your secrets: Playfair Text Encryptor guarantees the utmost confidentiality for your digital messages.",
   },
-  {
-    image: "/img2.png",
-    label: "Youtube Clone",
-    catagory: "Web",
-    desc: "Fortifies your cybersecurity, proactively identifying vulnerabilities and safeguarding your digital assets against potential threats.",
-  },
+  
 ];

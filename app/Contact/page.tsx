@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { TiLocation } from "react-icons/ti";
 import { MdEmail, MdCall, MdShare } from "react-icons/md";
@@ -86,23 +86,39 @@ const Contact = () => {
                   Social Links
                 </h2>
                 <div className="flex gap-3 ">
-                  <Link href={"/"}>
+                  <Link
+                    href="https://github.com/halas77"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="text-gray-100 hover:text-green-500 ease-in-out duration-300">
                       <AiFillGithub size={23} />
                     </div>
                   </Link>
-                  <Link href={"/"}>
+                  <Link
+                    href="https://www.linkedin.com/in/dawit-mellese-670b90254/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="text-gray-50 hover:text-green-500 ease-in-out duration-300">
                       <AiOutlineLinkedin size={23} />
                     </div>
                   </Link>
-                  <Link href={"/"}>
+                  <Link
+                    href="https://twitter.com/Halas9550443467"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="text-gray-50 hover:text-green-500 ease-in-out duration-300">
                       <AiOutlineTwitter size={23} />
                     </div>
                   </Link>
 
-                  <Link href={"/"}>
+                  <Link
+                    href="https://t.me/dawitmellese"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="text-gray-50 hover:text-green-500 ease-in-out duration-300">
                       <FaTelegramPlane size={23} />
                     </div>

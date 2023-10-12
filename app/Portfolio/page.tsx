@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
+import Link from "next/link";
 
 const catagories = ["All", "Web", "Code"];
 
@@ -62,24 +63,28 @@ const Portfolio = () => {
                     width={450}
                     height={30}
                     alt="Project Image"
-                    className="mx-auto mt-[-32px] shadow-lg rounded-lg shadow-gray-700"
+                    className="mx-auto mt-[-32px] shadow-lg rounded-l"
                   />
                   <h2 className="font-extrabold font-sans text-gray-50 text-xl pt-7 pb-5">
                     {item.label}
                   </h2>
                   <p className="text-gray-400 font-sans">{item.desc}</p>
                   <div className="flex justify-center mx-auto mt-5 gap-5 w-28 rounded-md h- ">
-                    <div className="flex justify-center mx-auto w-10 rounded-md h-8 bg-zinc-700 hover:bg-zinc-800 ease-in-out duration-300">
-                      <AiFillGithub
-                        size={30}
-                        className="hover:text-green-400 hover:scale-125 ease-in-out duration-200"
-                      />
+                    <div className="flex justify-center mx-auto w-9 rounded-full h-9 items-center bg-zinc-700 hover:bg-zinc-800 ease-in-out duration-300">
+                      <Link href={item.git}>
+                        <AiFillGithub
+                          size={30}
+                          className="hover:text-green-400 hover:scale-125 ease-in-out duration-200"
+                        />
+                      </Link>
                     </div>
-                    <div className="flex justify-center mx-auto w-10 rounded-md h-8 bg-zinc-700 hover:bg-zinc-800 ease-in-out duration-300">
-                      <AiOutlineLink
-                        size={30}
-                        className="hover:text-green-400 hover:scale-125 ease-in-out duration-200"
-                      />
+                    <div className="flex justify-center mx-auto w-9 rounded-full h-9 items-center bg-zinc-700 hover:bg-zinc-800 ease-in-out duration-300">
+                      <Link href={item.live}>
+                        <AiOutlineLink
+                          size={30}
+                          className="hover:text-green-400 hover:scale-125 ease-in-out duration-200"
+                        />
+                      </Link>
                     </div>
                   </div>
                 </div>

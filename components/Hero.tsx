@@ -42,7 +42,11 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0 }}
           >
-            <Link href="https://docs.google.com/document/d/1l-YWBUe3Y2LV94QFfqEbM_st018TrJDNCTwdCi7814Q/edit?usp=sharing"target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://docs.google.com/document/d/1l-YWBUe3Y2LV94QFfqEbM_st018TrJDNCTwdCi7814Q/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="w-32 h-10  border border-green-400 mt-5 hover:bg-zinc-950 hover:text-gray-200 hover:border-gray-200 ease-in-out duration-300 rounded-full text-green-400 mr-8">
                 {" "}
                 Resume{" "}
@@ -55,23 +59,39 @@ export default function Hero() {
               </button>
             </Link>
             <div className="flex gap-5 my-8 ml-2">
-              <Link href={"/"}>
+              <Link
+                href="https://github.com/halas77"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="w-9 h-9 rounded-full hover:bg-green-600 ease-in-out duration-300 bg-zinc-900 text-gray-300 flex items-center justify-center">
                   <AiFillGithub size={25} />
                 </div>
               </Link>
-              <Link href={"/"}>
+              <Link
+                href="https://twitter.com/Halas9550443467"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="w-9 h-9 rounded-full hover:bg-green-600 ease-in-out duration-300 bg-zinc-900 text-gray-300 flex items-center justify-center">
                   <AiOutlineTwitter size={25} />
                 </div>
               </Link>
-              <Link href={"/"}>
+              <Link
+                href="https://www.linkedin.com/in/dawit-mellese-670b90254/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="w-9 h-9 rounded-full hover:bg-green-600 ease-in-out duration-300 bg-zinc-900 text-gray-300 flex items-center justify-center">
                   <AiOutlineLinkedin size={25} />
                 </div>
               </Link>
 
-              <Link href={"/"}>
+              <Link
+                href="https://t.me/dawitmellese"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="w-9 h-9 rounded-full hover:bg-green-600 ease-in-out duration-300 bg-zinc-900 text-gray-300 flex items-center justify-center">
                   <FaTelegramPlane size={20} />
                 </div>
