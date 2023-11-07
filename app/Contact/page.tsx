@@ -20,7 +20,7 @@ const Contact = () => {
         animate={{ opacity: 1, y: 0, x: 0 }}
         transition={{ duration: 1, delay: 0 }}
       >
-        <div className="mx-10 md:mx:24 lg:mx-32 my-12">
+        <div className="mx-5 md:mx:24 lg:mx-32 my-12">
           <h1 className="font font-extrabold text-4xl font-sans mb-10">
             CONTACT{" "}
             <span className="font-sans border-b border-green-500 pb-1 pr-10">

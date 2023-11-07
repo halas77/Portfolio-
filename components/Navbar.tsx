@@ -45,9 +45,9 @@ const Navbar = () => {
       <div className="mx-6 my-6 flex justify-end lg:hidden">
         <div className=" text-white cursor-pointer" onClick={handleMenu}>
           {openMenu ? (
-            <AiOutlineClose size={25} />
+            <AiOutlineClose size={30} />
           ) : (
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu size={30} />
           )}
         </div>
 

@@ -91,7 +91,7 @@ const page = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0 }}
       >
-        <div className="mx-10 md:mx-28 my-8 xl:mx-36 xl:my-10">
+        <div className="mx-6 md:mx-28 my-8 xl:mx-36 xl:my-10">
           <h1 className="text-4xl max-sm:text-3xl mb-12 font-extrabold font-sans">
             MORE{" "}
             <span className="font-sans border-b border-green-500 p-1 pr-10">
@@ -109,9 +109,9 @@ const page = () => {
             technical skills and collaborative mindset, I am well-suited for
             software engineering and web development roles.
           </p>
-          <h1 className="mt-28 text-4xl mb-12 font-extrabold font-sans">
+          <h1 className="mt-28 text-4xl max-sm:text-3xl mb-12 font-extrabold font-sans">
             LANGUAGES &{" "}
-            <span className="font-sans border-b border-green-500 p-1 pr-10">
+            <span className="font-sans max-sm:text-3xl border-b border-green-500 p-1 pr-10">
               FRAMEWORKS
             </span>
           </h1>
@@ -128,9 +128,9 @@ const page = () => {
               ))}
             </div>
           </div>
-          <h1 className="mt-28 text-4xl mb-12 font-extrabold font-sans">
+          <h1 className="mt-28 text-4xl max-sm:text-3xl mb-12 font-extrabold font-sans">
             TOOLS &{" "}
-            <span className="font-sans border-b border-green-500 p-1 pr-10">
+            <span className="font-sans max-sm:text-3xl border-b border-green-500 p-1 pr-10">
               PLATFORMS
             </span>
           </h1>
