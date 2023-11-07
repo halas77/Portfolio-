@@ -28,7 +28,7 @@ import {
 
 import { TbBrandVscode, TbBrandNextjs, TbBrandCpp } from "react-icons/tb";
 
-export const tools = [
+const tools = [
   { label: "Git", icon: <FaGitAlt size={25} />, color: "text-green-500" },
   { label: "Github", icon: <FaGithub size={25} />, color: "text-gray-100" },
   {
@@ -45,7 +45,7 @@ export const tools = [
   { label: "Wix", icon: <FaWix size={25} />, color: "text-blue-500" },
 ];
 
-export const techs = [
+const techs = [
   { label: "HTML5", icon: <FaHtml5 size={25} />, color: "text-red-500" },
   { label: "CSS", icon: <FaCss3 size={25} />, color: "text-blue-500" },
   {
@@ -92,7 +92,7 @@ const page = () => {
         transition={{ duration: 1, delay: 0 }}
       >
         <div className="mx-10 md:mx-28 my-8 xl:mx-36 xl:my-10">
-          <h1 className="text-4xl mb-12 font-extrabold font-sans">
+          <h1 className="text-4xl max-sm:text-3xl mb-12 font-extrabold font-sans">
             MORE{" "}
             <span className="font-sans border-b border-green-500 p-1 pr-10">
               ABOUT ME

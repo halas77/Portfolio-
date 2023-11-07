@@ -6,7 +6,7 @@ import { GiTeacher } from "react-icons/gi";
 import { MdSupportAgent, MdOutlineSecurity } from "react-icons/md";
 import { motion } from "framer-motion";
 
-export const services = [
+const services = [
   {
     icon: <FaDesktop size={40} />,
     label: "Frontend Developement",
@@ -48,9 +48,9 @@ const Services = () => {
         transition={{ duration: 1, delay: 0 }}
       >
         <div className="mx-12 md:mx:18 lg:mx-32 my-12">
-          <h1 className="font font-extrabold text-4xl font-sans mb-10">
+          <h1 className="font max-sm:text-3xl font-extrabold text-4xl font-sans mb-10">
             SERVICE{" "}
-            <span className="font-sans border-b border-green-500 pb-1 pr-10">
+            <span className="font-sans max-sm:text-3xl border-b border-green-500 pb-1 pr-10">
               I OFFER
             </span>
           </h1>
@@ -59,7 +59,7 @@ const Services = () => {
               {services.map((item) => (
                 <div
                   key={item.label}
-                  className="bg-zinc-900 p-16 flex flex-col mx-auto text-center rounded-md hover:bg-zinc-800 hover:scale-105 ease-in-out duration-300"
+                  className="bg-zinc-900 md:p-16 p-5 flex flex-col mx-auto text-center rounded-md hover:bg-zinc-800 hover:scale-105 ease-in-out duration-300"
                 >
                   <i className="text-white mx-auto">{item.icon}</i>
                   <h2 className="font-bold text-green-500 text-xl py-5">

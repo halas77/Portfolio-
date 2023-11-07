@@ -27,10 +27,10 @@ const Portfolio = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0 }}
       >
-        <div className="mx-12 md:mx:18 lg:mx-32 my-12">
-          <h1 className="font font-extrabold text-4xl font-sans mb-10">
+        <div className="mx-6 md:mx-18 lg:mx-32 my-12">
+          <h1 className="font max-sm:text-3xl font-extrabold text-4xl font-sans mb-10">
             PROJECTS &{" "}
-            <span className="font-sans border-b border-green-500 pb-1 pr-10">
+            <span className="font-sans max-sm:text-3xl border-b border-green-500 pb-1 pr-10">
               WORKS
             </span>
           </h1>

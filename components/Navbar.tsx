@@ -55,7 +55,7 @@ const Navbar = () => {
           className={
             openMenu
               ? "fixed left-6 top-14 w-[80%] h-[450px] bg-opacity-[95] rounded-md bg-zinc-900 ease-in-out duration-500"
-              : "ease-in-out duration-500 fixed top-[-100%]"
+              : "fixed top-[-100%]"
           }
         >
           <ul className="p-4 text-center">
@@ -65,6 +65,7 @@ const Navbar = () => {
                 className="font-semibold p-4 border-b border-zinc-800 text-gray-400"
               >
                 <Link
+                onClick={handleMenu}
                   href={link.href}
                   className={
                     pathname === link.href
